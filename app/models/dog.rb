@@ -9,12 +9,5 @@ class Dog
     @@all << self
   end
 
-  def self.create
-    dog = Dog.new(name)
-    @@all << dog
-  end
-
-  def self.all
-    @@all
-  end
+  
 end
